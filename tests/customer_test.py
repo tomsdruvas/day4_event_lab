@@ -11,4 +11,7 @@ class TestCustomer(unittest.TestCase):
     def test_check_reduce_wallet(self):
         self.bob.reduce_wallet(10.00)
         self.assertEqual(40.00, self.bob.check_wallet())
+        
+    # def test_customer_has_enough_money_and_can_buy_ticket(self):
+
 
