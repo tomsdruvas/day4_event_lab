@@ -1,5 +1,5 @@
 import unittest
-from tests.performer_test import Performer
+from tests.performer_test import TestPerformer
 
 
 if __name__ == "__main__":
